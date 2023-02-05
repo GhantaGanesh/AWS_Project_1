@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2299.3">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;Login&lt;/title&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div style="text-align: center;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div&gt;&lt;h1 style="margin-bottom: 20px;"&gt;Login Page&lt;/h1&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div style="display: flex; flex-direction: column; align-items: center;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;form action="{{url_for('login')}}" method="POST"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div style="color: red; font-weight: bold;"&gt;{{ message }}&lt;/div&gt; &lt;br&gt;&lt;br&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;label style="margin-right: 10px;"&gt;User Name : &lt;/label&gt;&lt;input id="username" name="username" type="text" placeholder="User Name" autocomplete="off" style="padding: 10px; margin-bottom: 20px;"/&gt; &lt;br&gt;&lt;br&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;label style="margin-right: 10px;"&gt;Password : &lt;/label&gt;&lt;input id="password" name="password" type="password" placeholder="Password" autocomplete="off" style="padding: 10px; margin-bottom: 20px;"/&gt; &lt;br&gt;&lt;br&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;button id="submit" name="submit" style="padding: 10px 20px; background-color: lightblue; margin-bottom: 20px;"&gt;Sign in&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/form&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p style="margin-top: 20px;"&gt;Don't have an account? Please click &lt;a href="{{url_for('registration')}}" style="color: blue;"&gt;here&lt;/a&gt;&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
